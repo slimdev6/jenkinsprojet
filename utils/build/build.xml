@@ -18,14 +18,15 @@
         <mkdir dir="${project.basedir}/build/logs" />
         <mkdir dir="${project.basedir}/build/pdepend" />
     </target>
-
-    <target name="qa" description="Lance les outils d'analyse">
-     <phingcall target="phpunit" />
-     </target>
-     
     <target name="phpunit">
       <exec logoutput="true" dir="${project.basedir}/${source}/tests" command="phpunit" escape="false"/>
     </target>
+    
+    <target name="qa" description="Lance les outils d'analyse">
+     <phingcall target="phpunit" />
+     </target>
+
+
 
    
 
