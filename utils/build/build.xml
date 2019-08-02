@@ -6,7 +6,6 @@
         description="Tâche principale d'intégration continue"
         depends="clean,qa"/>
     
-
  <target name="clean" description="Vide les répertoires d'artefacts">
         <delete dir="${project.basedir}/build/api" />
         <delete dir="${project.basedir}/build/code-browser" />
@@ -21,7 +20,15 @@
     </target>
 
     <target name="qa" description="Lance les outils d'analyse">
+
+    <target name="phpunit">
+      <exec logoutput="true" dir="${project.basedir}/${source}/tests" command="phpunit" escape="false"/>
     </target>
+
+    </target>
+
+
+
 
    
 
