@@ -1,17 +1,14 @@
-<phpunit>
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        syntaxCheck="true">
     <testsuites>
-        <testsuite name="My Test Suite">
-            <directory>./</directory>
+        <testsuite name="Test suite">
+            <directory>.</directory>
         </testsuite>
     </testsuites>
-
-    <filter>
-        <whitelist>
-            <directory suffix=".php">../www</directory>
-        </whitelist>
-    </filter>
-
-<logging>
-  <log type="coverage-clover" target="../../build/logs/coverage.xml"/>
-</logging>
 </phpunit>
