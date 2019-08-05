@@ -8,7 +8,7 @@ class ProductTest extends TestCase{
         $productName = '0';
         $produit = new Product("ss",2,3.0);
         //$this->assertTrue($produit->getNom()!==false);
-        $this->assertTrue($produit->setNom(10) !==false);
+        $this->assertTrue($produit->setNom("10") !==false);
     }
 
 }
