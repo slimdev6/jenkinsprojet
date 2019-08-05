@@ -2,7 +2,7 @@
 require_once('../www/Product.class.php');
 use PHPUnit\Framework\TestCase;
 
-class ProductTest extends PHPUnit_Framework_TestCase{
+class ProductTest extends TestCase{
     public function setUp(){}
     public function tearDown(){}
 
