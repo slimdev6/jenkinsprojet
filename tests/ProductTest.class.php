@@ -1,5 +1,6 @@
 <?php
 require_once('../www/Product.class.php');
+use PHPUnit\Framework\TestCase;
 
 class ProductTest extends PHPUnit_Framework_TestCase{
     public function setUp(){}
