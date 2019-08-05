@@ -7,7 +7,7 @@
         stopOnFailure="false">
     <testsuites>
         <testsuite name="Test suite">
-            <directory>.</directory>
+            <directory>ProductTest.class.php</directory>
         </testsuite>
     </testsuites>
 
