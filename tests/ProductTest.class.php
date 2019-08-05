@@ -9,9 +9,10 @@ class ProductTest extends TestCase{
         $produit = new Product("ss",2,3.0);
         //$this->assertTrue($produit->getNom()!==false);
         $this->assertSame("ttt",Product::FOOD_PRODUCT);
+        if ($build_error) exit(1);
     }
 
 }
 
-if ($build_error) exit(1);
+
 ?>
