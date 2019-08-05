@@ -6,7 +6,7 @@
         processIsolation="false"
         stopOnFailure="false">
     <testsuites>
-        <testsuite name="Test suite">
+        <testsuite name="Test de la classe Product">
             <directory>ProductTest.class.php</directory>
         </testsuite>
     </testsuites>
