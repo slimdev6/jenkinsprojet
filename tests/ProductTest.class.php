@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 class ProductTest extends TestCase{
 
     public function testProductName(){
-        $productName = 'carotte';
+        $productName = '';
         $produit = new Product($productName,2,3.0);
         $this->assertTrue($produit->getNom()!==false);
     }
