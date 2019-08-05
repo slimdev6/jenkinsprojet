@@ -3,7 +3,8 @@
         convertErrorsToExceptions="true"
         convertNoticesToExceptions="true"
         convertWarningsToExceptions="true"
-        processIsolation="false">
+        processIsolation="false"
+        stopOnError="true">
     <testsuites>
         <testsuite name="Test de la classe Product">
             <directory>ProductTest.class.php</directory>
