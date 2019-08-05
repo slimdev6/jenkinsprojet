@@ -1,7 +1,7 @@
 <?php
 namespace jprojjet\Entity
 
-class Product{
+Product{
     const FOOD_PRODUCT = 'nourriture';
     private $nom;
     private $type;
