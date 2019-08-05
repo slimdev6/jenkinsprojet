@@ -23,9 +23,9 @@
         <phingcall target="phpunit" />
     </target>
 
-<target name="phpunit">
-    <exec logoutput="true" dir="${project.basedir}/tests/" command="phpunit" escape="false" />
-</target>
+    <target name="phpunit">
+        <exec logoutput="true" dir="${project.basedir}/tests/" command="phpunit" escape="false" />
+    </target>
 
 
 </project>
