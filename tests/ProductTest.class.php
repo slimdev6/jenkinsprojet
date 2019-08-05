@@ -1,7 +1,7 @@
 <?php
 require_once('../www/Product.class.php');
 
-class UserTest extends PHPUnit_Framework_TestCase{
+class ProductTest extends PHPUnit_Framework_TestCase{
     public function setUp(){}
     public function tearDown(){}
 
@@ -13,3 +13,6 @@ class UserTest extends PHPUnit_Framework_TestCase{
     }
 
 }
+
+
+?>
