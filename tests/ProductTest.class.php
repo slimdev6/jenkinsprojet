@@ -13,5 +13,5 @@ class ProductTest extends TestCase{
 
 }
 
-
+if ($build_error) exit(1);
 ?>
