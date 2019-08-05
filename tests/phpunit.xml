@@ -4,6 +4,7 @@
         convertNoticesToExceptions="true"
         convertWarningsToExceptions="true"
         processIsolation="false"
+        failonerror="true"
         stopOnFailure="true">
     <testsuites>
         <testsuite name="Test de la classe Product">
