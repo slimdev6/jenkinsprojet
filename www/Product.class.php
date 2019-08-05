@@ -18,6 +18,7 @@ class Product{
             return false;
         } else{
             $this->nom = $nom;
+            return true;
 
         }
     }
