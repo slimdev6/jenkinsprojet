@@ -4,7 +4,8 @@
         convertNoticesToExceptions="true"
         convertWarningsToExceptions="true"
         processIsolation="false"
-        stopOnError="true">
+        stopOnFailure="false"
+        syntaxCheck="false">
     <testsuites>
         <testsuite name="Test de la classe Product">
             <directory>ProductTest.class.php</directory>
