@@ -6,7 +6,6 @@ class ProductTest extends TestCase{
 
     public function testProductType(){
         $produit = new Product("Burger",2,3.0);
-        //$this->assertTrue($produit->getNom()!==false);
         $this->assertSame("ttt",Product::FOOD_PRODUCT);
     }
 
