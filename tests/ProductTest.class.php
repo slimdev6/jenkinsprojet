@@ -1,5 +1,5 @@
 <?php
-use www;
+use www\Product;
 use PHPUnit\Framework\TestCase;
 
 class ProductTest extends TestCase{
