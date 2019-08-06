@@ -6,7 +6,7 @@ class ProductTest extends TestCase{
 
     public function testProductType(){
         $produit = new Product("Burger",2,3.0);
-        $this->assertSame("ttt",Product::FOOD_PRODUCT);
+        $this->assertSame("drink",Product::FOOD_PRODUCT);
     }
 
     public function testProductName(){
@@ -17,9 +17,7 @@ class ProductTest extends TestCase{
     public function testProductPrice(){
         $produit = new Product("Burger",2,450);
         $this->assertTrue($produit->getPrice() < 460);
-
     }
-
 }
 
 

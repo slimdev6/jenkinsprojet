@@ -1,7 +1,7 @@
 <?php
 
 class Product{
-    const FOOD_PRODUCT = 'nourriture';
+    const FOOD_PRODUCT = 'food';
     private $nom;
     private $type;
     private $price;
