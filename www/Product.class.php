@@ -1,5 +1,5 @@
 <?php
-
+namespace www;
 class Product{
     const FOOD_PRODUCT = 'food';
     private $nom;
