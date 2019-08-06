@@ -15,9 +15,9 @@ class ProductTest extends TestCase{
         $this->assertTrue($produit->getNom()!==false);
     }
 
-    public function testProductPrix(){
+    public function testProductPrice(){
         $produit = new Product("Burger",2,450);
-        $this->assertTrue($produit->getPrix() < 460);
+        $this->assertTrue($produit->getPrice() < 460);
 
     }
 

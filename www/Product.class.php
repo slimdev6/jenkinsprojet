@@ -4,13 +4,13 @@ class Product{
     const FOOD_PRODUCT = 'nourriture';
     private $nom;
     private $type;
-    private $prix;
+    private $price;
 
 
-    public function __contruct($nom,$type,$prix){
+    public function __contruct($nom,$type,$price){
         $this->name=$nom;
         $this->type=$type;
-        $this->prix = $prix;
+        $this->price = $price;
     }
 
     public function setNom($nom){
@@ -21,12 +21,12 @@ class Product{
         return $this->nom;
     }
 
-    public function setPrix($prix){
+    public function setPrice($price){
         $this->nom = $nom;
     }
 
-    public function getPrix(){
-        return $this->prix;
+    public function getPrice(){
+        return $this->price;
     }
     
 
