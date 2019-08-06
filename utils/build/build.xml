@@ -16,7 +16,7 @@
     </target>
 
     <target name="phpunit">
-        <exec logoutput="true" dir="${project.basedir}/tests/" command="phpunit --coverage-clover coverage.xml" escape="false" />
+        <exec logoutput="true" dir="${project.basedir}/tests/" command="phpunit --coverage-clover" escape="false" />
     </target>
 
 
