@@ -14,13 +14,8 @@ class Product{
     }
 
     public function setNom($nom){
-        if(Is_Numeric($nom)){
-            return false;
-        } else{
             $this->nom = $nom;
-            return true;
-
-        }
+        
     }
 
     public function getNom(){
