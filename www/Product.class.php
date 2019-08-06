@@ -15,7 +15,6 @@ class Product{
 
     public function setNom($nom){
             $this->nom = $nom;
-        
     }
 
     public function getNom(){
