@@ -1,5 +1,5 @@
 <?php
-use www\Product.class;
+require_once('../www/Product.class.php');
 use PHPUnit\Framework\TestCase;
 
 class ProductTest extends TestCase{
